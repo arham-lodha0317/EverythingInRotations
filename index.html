@@ -29,7 +29,6 @@
     <script src="default.js"></script>
     <script src="PointProcessing.js"></script>
 
-
     <style>
       body {
         margin: 0;
@@ -39,12 +38,16 @@
       canvas {
         margin: auto;
       }
+
+      * {
+        background-color: #222;
+        color: #e6e6e6;
+        border-color: #e6e6e6;
+      }
     </style>
   </head>
 
   <body>
-
-
     <div id="fourier" class="jumbotron">
       <h1>Everything is a Rotation</h1>
     </div>
@@ -352,28 +355,6 @@
       <div id="sketch" class="row p-3 justify-content-center"></div>
     </div>
 
-    <div id="code" class="container">
-      <h2>Analyzing my implementation</h2>
-      <p>
-        Most of the basic mathematical heavylifting is done by the
-        <strong>Complex</strong> class. Where some basic operations were
-        outlined such as adding and multiplying. However the implementation is
-        relatively self explanatory and is pretty bland. But the fun happens in
-        the <strong>FourierEpicycles</strong> class.
-      </p>
-
-      <pre>
-        <code >
-          class FourierEpicycles{}
-        </code>
-      </pre>
-
-      <xmp>
-        class FourierEpicycles{}
-      </xmp>
-      
-    </div>
-
     <div class="More-Info">
       <div class="container justify-content-center">
         <h2>More Information</h2>
@@ -428,7 +409,6 @@
         display: block;
         margin: 0 auto;
       }
-    
     </style>
   </body>
 </html>
