@@ -19,8 +19,10 @@ let complexFourier = (p) => {
     let pathBtn;
     let cycle;
 
+    let canvasDiv;
+
     p.setup = () => {
-        canvas = p.createCanvas(window.innerWidth * .75, window.innerHeight * .90);
+        canvas = p.createCanvas(window.innerWidth * .75, window.innerHeight * .75);
         canvas.parent('sketch');
         width = p.width;
         height = p.height;
